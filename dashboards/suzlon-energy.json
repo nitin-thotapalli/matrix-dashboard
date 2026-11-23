@@ -1,0 +1,106 @@
+{
+  "company": "Suzlon Energy Ltd",
+  "as_of": "2026-11-24",
+  "classification": "public/illustrative",
+  "status": "prototype",
+  "summary": "Suzlon's wind energy recovery has improved revenue and balance-sheet strength, but FY2027 margin pressure and working-capital absorption create valuation uncertainty. Numbers below are drawn from a user-maintained historical Screener-based spreadsheet and a prior illustrative valuation conversation; this dataset does not claim independent verification of live filings or a current market price.",
+  "metrics": [
+    {
+      "label": "FY2026 revenue",
+      "value": "₹16,732 Cr"
+    },
+    {
+      "label": "FY2026 operating margin",
+      "value": "18.1%"
+    },
+    {
+      "label": "FY2026 operating cash flow",
+      "value": "₹1,202 Cr"
+    },
+    {
+      "label": "Illustrative DCF base",
+      "value": "Recalculate below"
+    }
+  ],
+  "findings": [
+    "Revenue rose from ₹6,529 Cr in FY2024 to ₹16,732 Cr in FY2026 (historical spreadsheet).",
+    "Operating cash flow rose much less quickly than reported operating profit over FY2025–FY2026.",
+    "DCF valuations are highly sensitive to margins, WACC, terminal growth, and incremental working capital."
+  ],
+  "financial_history": [
+    {
+      "period": "FY2022",
+      "revenue_cr": 6581.78,
+      "operating_profit_cr": 899.98,
+      "operating_cash_flow_cr": 1301.9
+    },
+    {
+      "period": "FY2023",
+      "revenue_cr": 5970.53,
+      "operating_profit_cr": 833.2,
+      "operating_cash_flow_cr": 491.08
+    },
+    {
+      "period": "FY2024",
+      "revenue_cr": 6529.09,
+      "operating_profit_cr": 1037.19,
+      "operating_cash_flow_cr": 79.53
+    },
+    {
+      "period": "FY2025",
+      "revenue_cr": 10889.74,
+      "operating_profit_cr": 1863.44,
+      "operating_cash_flow_cr": 1091.96
+    },
+    {
+      "period": "FY2026",
+      "revenue_cr": 16731.84,
+      "operating_profit_cr": 3024.7,
+      "operating_cash_flow_cr": 1202.06
+    }
+  ],
+  "dcf": {
+    "starting_revenue_cr": 16731.84,
+    "ebitda_margin_pct": 18,
+    "initial_growth_pct": 20,
+    "annual_growth_decay_pp": 2,
+    "capex_pct_revenue": 3.5,
+    "incremental_nwc_pct": 20,
+    "da_pct_revenue": 2,
+    "cash_tax_pct": 25,
+    "wacc_pct": 12,
+    "terminal_growth_pct": 4,
+    "shares_cr": 1374,
+    "net_cash_cr": 2048
+  },
+  "events": [
+    {
+      "date": "2026-10",
+      "title": "Quarterly margin compression (research lead)",
+      "detail": "Validate latest company earnings announcement and reported margin guidance before using in an investment decision.",
+      "source_url": "https://www.suzlon.com/in-en/investors"
+    },
+    {
+      "date": "2026-11",
+      "title": "Cybersecurity disclosure (research lead)",
+      "detail": "Confirm incident details, ongoing disclosures and any financial impact with company filings.",
+      "source_url": "https://www.suzlon.com/in-en/investors"
+    }
+  ],
+  "evidence": [
+    {
+      "source": "Screener-based user research worksheet",
+      "period": "FY2022–FY2026",
+      "type": "secondary structured data",
+      "url": "https://docs.google.com/spreadsheets/d/1VtG-lAKhk7RrZwC5NK6ja12ZxHiCGgWoCF9ZOBvF8Cw/edit",
+      "note": "User-maintained workbook; validate against filings"
+    },
+    {
+      "source": "Suzlon investor relations",
+      "period": "Current disclosures",
+      "type": "primary source locator",
+      "url": "https://www.suzlon.com/in-en/investors",
+      "note": "Not automatically ingested or verified in this prototype"
+    }
+  ]
+}
