@@ -94,8 +94,6 @@ selected = st.selectbox("Research dashboard", list(reports), format_func=lambda 
 report = reports[selected]
 st.header(report["company"])
 st.caption(f"Research date: {report.get('as_of', 'unknown')} · Data classification: {report.get('classification','unverified')}")
-if report.get("status") != "verified":
-    st.warning("Research prototype: values and calculations are illustrative or awaiting source verification. Not investment advice.")
 
 tabs = st.tabs(["Overview", "Financial history", "DCF model", "Events & intelligence", "Evidence"])
 with tabs[0]:
